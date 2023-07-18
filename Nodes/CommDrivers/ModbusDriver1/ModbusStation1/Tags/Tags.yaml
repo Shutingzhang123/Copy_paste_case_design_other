@@ -1,0 +1,15 @@
+Name: Tags
+Id: g=f18f9bd077b95cfb54e6403c2177a381
+Type: FolderType
+Children:
+- Name: ModbusTag1
+  Id: g=771f47de3513d1806277a494a03a80df
+  Type: ModbusTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Variable1
+    Id: g=462346934476f94011297394a59b3d14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

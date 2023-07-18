@@ -1,0 +1,166 @@
+Name: UI
+Id: g=f6032f5112a7d108d9ee6c95726c5466
+Type: UICategoryFolder
+Children:
+- Name: DefaultStyleSheet
+  Id: g=8da2b5865c73184b748c69f73d34bedf
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Id: g=11b28974c1d68bb8aa0ffb872b579306
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Id: g=64869054c5cdd8d8829294299d29e773
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Id: g=34f3dca5e84841d85193d12707de905a
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Id: g=4ad703e040ee18ab4d20c026460c8114
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Id: g=c37d5f8f2fd83f220f582ed7f8a19410
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Id: g=9c4e26cd0cfa74b3b5b83b40cf21b168
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Id: g=1b4a347f7fbae7d93a0d083e6165b541
+    Type: ChartStyle
+  - Name: DataListStyle
+    Id: g=7ade8a1b52814388761aaf19d739ff1b
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Id: g=3b2506a2f253ab4d69bb71a7d4d0d47a
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Id: g=01190f5704a7de8320e9f9dad50f9546
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Id: g=579530e1274b7765ee133827853c108a
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Id: g=0c86659b7af8edae7f275b6a8808b0c6
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Id: g=6a6ea2b7fe42ffba9056c90994548a84
+    Type: HistogramChartStyle
+- Name: NativePresentationEngine
+  Id: g=28774d51ce85e9993c52df79a3d7f5fa
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Id: g=071e5934c5b64424d673553128ca4a53
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Id: g=ce93a86a8c1eb3365a2687099a23471d
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"01a7e8933afd7c95fe894b0859308138","Namespace":42}
+    Children:
+    - Name: Kind
+      Id: g=fe7b4c6ed526310b1935ba0cb0c9c984
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":12,"Namespace":7}
+  - Name: StyleSheet
+    Id: g=e90333baef289e9100adc89dcddeaca4
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"8da2b5865c73184b748c69f73d34bedf","Namespace":42}
+    Children:
+    - Name: Kind
+      Id: g=8b9f14e28db9ec6faf1251a7bb02e069
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":447,"Namespace":7}
+  - Name: StartingUser
+    Id: g=f876137d745e749a86be6c12ba2efea2
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"Id":46,"Namespace":1}
+    Children:
+    - Name: Kind
+      Id: g=eca88c7581868ef00bdb18a60b84f7ed
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":14,"Namespace":1}
+  - Name: Sessions
+    Id: g=06a2e86f84d2d4915585fd5bab1bf941
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=01a7e8933afd7c95fe894b0859308138
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=054c0e9d9015cb3a139421a93c69ce8c
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 480.0
+  - Name: Height
+    Id: g=4ed1538958ee0e858cb906419fefa162
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 272.0
+  - Name: Caption
+    Id: g=43db7421a766e1098337a4e1261af6f7
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "Copy_paste_case_design"
+  - Name: NumberAnimation1
+    Id: g=1b89916a2b9174196af134f13c164fb9
+    Type: NumberAnimation
+    Children:
+    - Name: To
+      Id: g=fd8637993100d0a62800c68bd5396dc5
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Target
+      Id: g=70c026c339fbcd9cad904a5a88489534
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Id: g=b8751efbf3598bcf2b75ed4c6ffe5319
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":62}
+    - Name: Running
+      Id: g=41016f0474b8a05561ccc14807eea94d
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+  - Name: NumberAnimation2
+    Id: g=611ed3b19894708c55c94521391b6921
+    Type: NumberAnimation
+    Children:
+    - Name: To
+      Id: g=4feb640ebbb001ea4b884f97262046d8
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Target
+      Id: g=8775c30439e87f3f9337ebbf4425628f
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Id: g=03b63a305d5d9ac061725a036395866f
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":62}
+    - Name: Running
+      Id: g=af1849f571a81fe8c7402462a0898d35
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+- File: Screens/Screens.yaml

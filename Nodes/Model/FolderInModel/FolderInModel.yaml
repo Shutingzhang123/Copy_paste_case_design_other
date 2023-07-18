@@ -1,0 +1,286 @@
+Name: FolderInModel
+Id: g=39ea93c0a693a027ba1716dd232abe6e
+Type: FolderType
+Children:
+- Name: NewObjectInstance
+  Id: g=0def9f1341867a958d267d77c13f9a94
+  Type: NewObject
+  Children:
+  - Name: Variable1
+    Id: g=357e5100188e4a5fcd6e12e8aad50cb8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AnalogVariable1
+    Id: g=a50e896f62cd262f622e50b086f8c83c
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Id: g=b6cb80b89f0cb4d17e04b6e4293224a7
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Id: g=bc037f0486d7a8692d87957196dac610
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=c34af16e053869ffd6d5769e3092bae0
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: NodePointer1
+    Id: g=0815a8722118fcd194eae72b2f75861f
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=cb7b2eb7f72803c0b7ed93dd39f0c47c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Alias1
+    Id: g=cdd48eb4d71f242651b9e957bdefb78e
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"334123bb64740dbd442da57d003ea693","Namespace":42}
+    Children:
+    - Name: Kind
+      Id: g=321d7c0e184d7dd19ff134a20ca9f710
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"334123bb64740dbd442da57d003ea693","Namespace":42}
+  - Name: Object1
+    Id: g=10a8f3d221d9342c3893b493f267a293
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Id: g=e1e4aacc869fe6d84a96fc1dbea0bf35
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Name: Alias2
+    Id: g=d0f1e25b095e7ebec58e18dec1cc7aa0
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=157b498f953e2634c1aff375d5dabddd
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"334123bb64740dbd442da57d003ea693","Namespace":42}
+- Name: VariableInstance
+  Id: g=c2ec004d1323dc1795b58e0df9f2a05a
+  Type: Variable
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Variable1
+    Id: g=d8a0911a536779eee85fe3f2e96f9d56
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AnalogVariable1
+    Id: g=9a7e4f85d33e8900eb8483ba114343f7
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Id: g=29188b042853a3e4f0483c241e392d0f
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Id: g=cfc4a13920542172bf47082f4529dffa
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=8f595b1545c502ef971b80a89ef46ec4
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: NodePointer1
+    Id: g=3e3b9ac6d5c50b01f2bc90de85686856
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=729bc9ed2e0ead74fdfdf17e850abc8f
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EngineeringUnits
+    Id: g=738e2c56223aca2652ebd611afd79783
+    Type: EUInformationType
+    DataType: EUInformation
+    Value: 
+     {
+      "TypeId": {
+       "Id": 887
+      },
+      "Body": {
+       "namespaceUri": "",
+       "unitId": 0,
+       "displayName": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "description": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       }
+      }
+     }
+    Children:
+    - Name: UnitId
+      Id: g=c7f481c044837497fd9b7bf309ae7cef
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4274486
+    - Name: DisplayName
+      Id: g=df37f702e0ab6dfa10d2a3a6bb9d9c52
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Id: g=02c3b2d1c57871dc222cad065f9dbe16
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: EURange
+    Id: g=1cfa32f66be133adfed21d201e67a120
+    Type: RangeType
+    DataType: EURange
+    Value: 
+     {
+      "TypeId": {
+       "Id": 884
+      },
+      "Body": {
+       "low": 0.0,
+       "high": 0.0
+      }
+     }
+    Children:
+    - Name: Low
+      Id: g=0079f74c4983c5172f864588bea1263f
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=3d5e13a0a79bb82851ada94861da8c06
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: NewObject1
+  Id: g=bc28946ee5d6e923db82896f2877fd5c
+  Supertype: BaseObjectType
+  Children:
+  - Name: Variable1
+    Id: g=21c04d31c5c4d7cacab724ff9b5f41f9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AnalogVariable1
+    Id: g=b968ae7664bf587ea72eb1547400df78
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Id: g=9aaf642aa481a784130be88965451113
+      Type: RangeType
+      DataType: EURange
+      Value: 
+       {
+        "TypeId": {
+         "Id": 884
+        },
+        "Body": {
+         "low": 0.0,
+         "high": 0.0
+        }
+       }
+      Children:
+      - Name: Low
+        Id: g=7104d7a166f6441256a4cff223a69e56
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=9f7489a6beef38164cd57463853f6fe3
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: NodePointer1
+    Id: g=86d7b4076e35b48c0c46591e50883fe8
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=ed7a121c521e85006a4b0c34d8e91ab7
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Alias1
+    Id: g=5df58cc83eb6cbfc2749035f7e211481
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"334123bb64740dbd442da57d003ea693","Namespace":42}
+    Children:
+    - Name: Kind
+      Id: g=344e97a2839cff30144d74d4f694a3d7
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"334123bb64740dbd442da57d003ea693","Namespace":42}
+  - Name: Object1
+    Id: g=d2dce3c019b92638087ecd67ce248a5a
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Id: g=cf5b6e250d50d96075ffd0865495a910
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0

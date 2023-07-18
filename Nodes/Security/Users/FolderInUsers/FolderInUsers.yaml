@@ -1,0 +1,7 @@
+Name: FolderInUsers
+Id: g=bf4ca0cae42c52d2b2a3a2e6fb630861
+Type: FolderType
+Children:
+- Name: User2
+  Id: g=b9146a7b2d149f7e0d1e1efef3117c10
+  Type: UserType

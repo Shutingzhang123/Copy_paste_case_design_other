@@ -1,0 +1,19 @@
+Name: Translations
+Id: g=ab419360539ccf8ad05f816d439ff235
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=a1adc485e3a8a2e167bf8b80655a388c
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [1,2],
+    "Body": [
+     "","en-US"
+    ]
+   }
+- File: FolderInTranslations/FolderInTranslations.yaml

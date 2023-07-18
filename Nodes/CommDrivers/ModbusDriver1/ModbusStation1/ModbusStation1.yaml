@@ -1,0 +1,86 @@
+Name: ModbusStation1
+Id: g=03c36bf6336ae1399f8fa4646ffd56e8
+Type: ModbusStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Id: g=2c0e4963aa693e97cb25db034ada6a48
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 128
+- Name: MaximumGapInBytes
+  Id: g=e11c4812732f88de530c14ff71b51ae9
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 4
+- Name: UnitIdentifier
+  Id: g=c84e35177509e4261f028da65d5e4504
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 1
+- Name: WriteMultipleCoils
+  Id: g=222dd1fc865a715dc423fe64fbedb87e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: WriteMultipleRegisters
+  Id: g=6349a715efefc96424ad62a5dd0f79e2
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: IPAddress
+  Id: g=386ac770ba1c0bed0fa6b4f6b9893acf
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Port
+  Id: g=afbbb95ecc3d1057916c3d6f411ba0ff
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 502
+- Name: Timeout
+  Id: g=421534d22dba80a271e510ff06f6394f
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:5.0000000"
+- Name: OperationCode
+  Id: g=b8971bae314169fa6f643d1f05179764
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=35;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=e53c3c813324892b88f911a027b71996
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
+- Name: Alias1
+  Id: g=dfaf32dcc751e0c0a38ba7792d892394
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Id: g=0c926b923745da50252169d1499da9bd
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}

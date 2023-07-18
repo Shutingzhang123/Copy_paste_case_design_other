@@ -1,0 +1,38 @@
+Name: 'OPC-UA'
+Id: g=8aae5c947cfdb65f40bf81e61b7be37b
+Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer
+  Id: g=33b0adc721e003bde2e12d566a79dba4
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Id: g=57a3aa38510539f7ab17b73731a2ce16
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Id: g=c62514d42e699e06869782ec2a86c8ad
+    Type: BaseObjectType
+  - Name: MinimumMessageSecurityMode
+    Id: g=81a655e6c8be355ca5c2fd558df3ed84
+    Type: PropertyType
+    DataType: ns=3;MessageSecurityModeEnum
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Id: g=8a6eb1cb0a9e64c1031145ea06d947d9
+    Type: PropertyType
+    DataType: ns=3;SecurityPolicyEnum
+    Value: 0
+  - Name: Alias1
+    Id: g=8114c6621c43cea970d81638d4b03bc5
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=7de46c73df83b102640d038c918e361c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"334123bb64740dbd442da57d003ea693","Namespace":42}
+- File: 'FolderInOPC-UA/FolderInOPC-UA.yaml'

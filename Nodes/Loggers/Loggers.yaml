@@ -1,0 +1,47 @@
+Name: Loggers
+Id: g=415c76e3c4c47084a6608dfcf377f1bf
+Type: LoggersCategoryFolder
+Children:
+- Name: DataLogger1
+  Id: g=4a9b5e28cdbda12973b0733e9dce7e90
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Id: g=d923d27d73118c6802fbb28eca0c16f3
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 1
+  - Name: Store
+    Id: g=41a5d4f9684a86e0aefa21659f936dda
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=b8ffa8ce76e4b1b872e47cd38dcc254d
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":13}
+  - Name: VariablesToLog
+    Id: g=5794f3e024db376b181e414790eb8a32
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=9;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Id: g=842c2a0f2de6728bd7030b8f23832afd
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: Alias1
+    Id: g=b97b0ebf1ad95d28bafa43c5a3435afd
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=dcebfa568e80563c875197e5d794365c
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}
+- File: FolderInLoggers/FolderInLoggers.yaml

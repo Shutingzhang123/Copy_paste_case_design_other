@@ -1,0 +1,5 @@
+Name: FolderInCommDrivers
+Id: g=483b2d70e79205884dfca5e4023f54d8
+Type: FolderType
+Children:
+- File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml

@@ -1,0 +1,27 @@
+Name: Converters
+Id: g=076a4524320bc7c25d28d5608d65282e
+Type: ConvertersCategoryFolder
+Children:
+- Name: EngineeringUnitConverter1
+  Id: g=a66e4d4e1f9db752e29c01a6b15809cb
+  Supertype: EUConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Id: g=94d1fd3653d295c0e76917e4bd186b69
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+  - Name: Alias1
+    Id: g=972594040b4035701f477d214395a6b5
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=56d16eac60b11dce38b289bed12a73c6
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}
+- File: FolderInConverters/FolderInConverters.yaml

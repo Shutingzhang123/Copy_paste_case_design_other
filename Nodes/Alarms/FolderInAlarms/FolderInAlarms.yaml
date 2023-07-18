@@ -1,0 +1,44 @@
+Name: FolderInAlarms
+Id: g=3607de47bdcdf1e772ff3045b743ae28
+Type: FolderType
+Children:
+- Name: ExclusiveDeviationAlarm1
+  Id: g=3abb923eb5538938f4939f0aafb4a6b8
+  Type: ExclusiveDeviationAlarmController
+  Children:
+  - Name: Setpoint
+    Id: g=fdca9c51fd8396e3f814b6cb07ffc179
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=3f2b1c57ee7501cc106499b1d3efd1bc
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=02a1fd201af65aaff7ee5722eac98521
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Name: Alias1
+    Id: g=28e775a62b13b18dab434a747f610a76
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=22f7f0d432380455f8100fd3f1c0f583
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}

@@ -1,0 +1,74 @@
+Name: FolderInSystem
+Id: g=92bb6d568cdddf0618a6012d4785957d
+Type: FolderType
+Children:
+- Name: FTRemoteAccess
+  Id: g=5bd6e1bbef6512c8bac4455cf6a87105
+  Type: FTRemoteAccess
+  Children:
+  - Name: RuntimeVersion
+    Id: g=4ef9f0a6ab42dc6e300d2eaa86497f78
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: ServerConnection
+    Id: g=fd5b6d918313b4bd2a71fb2cc7b225b6
+    Type: BaseDataVariableType
+    DataType: ServerConnectionEnum
+    AccessLevel: Read
+    Value: 0
+  - Name: RegisteredToDomain
+    Id: g=9d29aa646c23e9bcf847179aae5ccef5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: AssistanceRequestMode
+    Id: g=4d33a3c633a350875834ba63acb9c235
+    Type: BaseDataVariableType
+    DataType: AssistanceRequestModeEnum
+    AccessLevel: Read
+    Value: 0
+  - Name: AssistanceRequested
+    Id: g=a61cc37035cfd6766837be82a8d704f0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: RemoteConnectionCount
+    Id: g=4a6407cbfc6f0345de1b5f5b6c198167
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: AnonymousId
+    Id: g=2fcce1c7a1537c55d61baae579ff661c
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: AnonymousPassword
+    Id: g=3fa204cfe145e421d1d0e2c5b84b7750
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Class: Reference
+    Target: ns=19;i=71
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=73
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=75
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=78
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=99
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=90
+    Direction: Forward

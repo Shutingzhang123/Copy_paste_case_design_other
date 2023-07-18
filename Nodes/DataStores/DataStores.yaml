@@ -1,0 +1,108 @@
+Name: DataStores
+Id: g=39380d0d4fbbe523e06dea0e51c7dbe0
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=8cd4e113dda113e03a282d88929ecdd3
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=8458d2d41d60f1e04ecb0f24397e98dd
+    Type: BaseObjectType
+    Children:
+    - Name: SQLiteStoreTable1
+      Id: g=21397ddee19043c58de52736e90178ea
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=3b4c50777ef57b44d59ba27de630b468
+        Type: BaseObjectType
+  - Class: Reference
+    Target: ns=33;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=97bd30b53afa395f427b5d5aef5552e6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=bc86d6ab2a3a182d852a76da5bf1bef0
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=68b33e3e7b5e5046078596f2bb4e7a69
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=163e01cedf5076bc931f2fb9369da49f
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Alias1
+    Id: g=e908a0c8f74f67b5ac1e6e57ca81cb1e
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=7a697e2b510e86ad8574cf2d03d39910
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}
+- File: FolderInDatastores/FolderInDatastores.yaml

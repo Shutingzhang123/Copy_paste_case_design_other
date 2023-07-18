@@ -1,0 +1,53 @@
+Name: FolderInLoggers
+Id: g=b9fb5a06c943fd2c494531eacb011f1f
+Type: FolderType
+Children:
+- Name: EventLogger1
+  Id: g=2d551f52f6fc9c06b6ebfa5c1ceeb541
+  Type: EventLogger
+  Children:
+  - Name: Enabled
+    Id: g=3e38f964d497abcbd259f2098b2ce8c5
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: Store
+    Id: g=cce66cebf991a1ab40a16360a194fcf7
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=4cfef5c4d201e8ca3464c87afdd71dcb
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":13}
+  - Name: EventConfigurations
+    Id: g=f1a3846a7180a54f6b1a7fc0d61ca84c
+    Type: BaseObjectType
+  - Name: EventFieldPaths
+    Id: g=f612575fc62ca513c44f8e9bb25fd318
+    Type: BaseObjectType
+  - Name: EventArguments
+    Id: g=bc9b0e0660288e4c118db15d17545132
+    Type: BaseObjectType
+    Children:
+    - Name: EventTypeId
+      Id: g=aaa9e62947b3d06accc04269d0e5a569
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EventFieldsToLog
+    Id: g=ae05f851fde2f5e1d8e6d566df87b061
+    Type: BaseObjectType
+  - Name: Alias1
+    Id: g=2730c4d33906226b369bc93c3fde6550
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=7674d9952556705e65e53ab80904258f
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}

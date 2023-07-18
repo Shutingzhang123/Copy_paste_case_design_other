@@ -1,0 +1,27 @@
+Name: FolderInNetLogic
+Id: g=cc90406ca993d536c5c864440744b5ec
+Type: FolderType
+Children:
+- Name: DesignTimeNetLogic1
+  Id: g=ef6757d8903ebaeffcf1c8a0f1095f51
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+    Id: g=d03e7cb48706fef15580c05a66895fdc
+  - Name: BehaviourStartPriority
+    Id: g=4cf1e7b25d1f8a901cd2b4495339ceaf
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: Alias1
+    Id: g=5f8f876295a6fe6ff6e58f73a975c969
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=0b0bd90472f34d50b8e5b671cd9c27d6
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}

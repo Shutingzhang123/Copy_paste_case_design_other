@@ -1,0 +1,31 @@
+Name: FolderInConverters
+Id: g=f90c021b995e2a86bcc8d9e55c507fe6
+Type: FolderType
+Children:
+- Name: KeyValueConverter1
+  Id: g=149454dbd9ed548fe218caca01933129
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Id: g=f1953086767ddb9d44b116f9d5408006
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=46fa347997b3559465d32f94bae444a1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=99bca0bb7749f0af201e22f0b29ca672
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 0
+      - Name: Value
+        Id: g=71102eb2d218b75a8b24dc114cdcb9d6
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: ""

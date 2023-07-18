@@ -1,0 +1,15 @@
+Name: Tags
+Id: g=1adf84e3a8ae03f6b22de20bae957dd8
+Type: FolderType
+Children:
+- Name: RAEtherNet_IPTag1
+  Id: g=e1da66f27183df209f5f1ad90aee454a
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Id: g=945c81821766d82c68fc33091deb1461
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""

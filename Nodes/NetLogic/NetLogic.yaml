@@ -1,0 +1,20 @@
+Name: NetLogic
+Id: g=af323a4f0b94978a8edb9aa9b1672c66
+Type: NetLogicCategoryFolder
+Children:
+- Name: RuntimeNetLogic1
+  Id: g=f0e3ae611d864cc61107e278e8ae6e3a
+  Type: NetLogic
+  Children:
+  - Name: Alias1
+    Id: g=609dea9ed1a836185e154bd8bc9a9854
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=52399c714a88ccefe3a99576591d8d7a
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}
+- File: FolderInNetLogic/FolderInNetLogic.yaml

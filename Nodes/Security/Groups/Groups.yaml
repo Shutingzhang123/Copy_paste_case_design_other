@@ -1,0 +1,8 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: Group1
+  Id: g=d0feb8d76e1888bfa5aa8d455ca8cf2f
+  Type: GroupType
+- File: FolderInGroups/FolderInGroups.yaml

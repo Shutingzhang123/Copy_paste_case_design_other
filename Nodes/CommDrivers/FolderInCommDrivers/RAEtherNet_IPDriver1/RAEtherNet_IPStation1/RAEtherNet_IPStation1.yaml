@@ -1,0 +1,181 @@
+Name: RAEtherNet_IPStation1
+Id: g=638eae97744d0df10cc8695e49bf82a5
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Id: g=561678719601f904526e393239bc7592
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: StationStatusVariables
+  Id: g=fc1312ec520a5eec369c39fb13ef0413
+  Type: PropertyGroup
+  Children:
+  - Name: ActiveDataItems
+    Id: g=d8c053b819148c96664a4698e5f34db2
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: ActivityCounter
+    Id: g=3b03a6a714d67bbf1a2f81e35eef3c57
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: CatalogNumber
+    Id: g=e9b74d8a28c54827fe5f0c6b79d41ab0
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: ControllerName
+    Id: g=ddcb4244248c145860f87fbc03c88f4d
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: FailedDataItems
+    Id: g=298798aa06a1af8f69faf45913b91121
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MajorRev
+    Id: g=21c7ed9f47745189b0cddb1df28f5294
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MinorRev
+    Id: g=5a6da12c4fc4054d771061353f7a287e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: Mode
+    Id: g=d26082000aa6ce14ab1b0d265d24562d
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: OptimizedBlocks
+    Id: g=1cb2595a33d27956ffcf78009f591e64
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: Path
+    Id: g=424efa339b7ac60eabee502ba855253b
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: Present
+    Id: g=df2302bb9a8d952925c716a8fd93ed6c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: ProductCode
+    Id: g=14263a027da4728f25c3c533a757dc18
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: ProductType
+    Id: g=20cf5362ce4aefc6b98159d3bb850eea
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: RecoverableMajorFaults
+    Id: g=ea0e073316864bf1a89a33317fc82503
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: RecoverableMinorFaults
+    Id: g=1fc0a9d81ea43db2b2754d4e7a630c9c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: RunMode
+    Id: g=299d3e23361cc8491e03b845fe98e6b8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Synchronized
+    Id: g=f5f388d158141b6a5104d1dbfa9e8398
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: SyncState
+    Id: g=ca6f79d5a7819dc861e071e7d4058e90
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: UnrecoverableMajorFaults
+    Id: g=157a07b3eefe1f9fa99ae6fc285bd9cc
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: UnrecoverableMinorFaults
+    Id: g=50591eeb49b02ade664aa6d5c69d79db
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: Vendor
+    Id: g=d2c14d560e68242f5e6d4c0c5594337e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+- Name: OperationCode
+  Id: g=e2be19df5ced6948da6192ad21ca8e28
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=35;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=35;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=aa3bc9a2fc71c0b5fd648d734ce8bf9f
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
+- Name: Alias1
+  Id: g=7078f5f02c6e6ed85aceb104be6ea93d
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Id: g=f0363e11466f757e2ecfced3ef11abcb
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}

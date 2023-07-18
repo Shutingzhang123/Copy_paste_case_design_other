@@ -1,0 +1,59 @@
+Name: Recipes
+Id: g=86214d0fa0cd50213768fe61e61a2836
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=423699d4b4fc42c0f17bf9c2312c5b9b
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=d5a3b57fe0282c6fc409472387c3a046
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: Alias1
+    Id: g=1609f31bcd1f8e441ab08e85b3811818
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=1f4808cdf0e233a87e96f832f21696f1
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}
+- File: FolderInRecipes/FolderInRecipes.yaml

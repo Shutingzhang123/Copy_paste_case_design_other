@@ -1,0 +1,23 @@
+Name: FolderInRetentivity
+Id: g=00e83cfeecb7d5bd6d23ae450fc44828
+Type: FolderType
+Children:
+- Name: RetentivityStorage1
+  Id: g=92ca74345f684204ef7af35f53294ff8
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=48901c08b830da8fe258080639e13d33
+    Type: BaseObjectType
+  - Name: WriteDelay
+    Id: g=debaace405261d1f941313ef5b4f4540
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=e3bbed14d64d50d166b19f5b0126a6a3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true

@@ -1,0 +1,45 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=f71ba6cc45d9a25e205411f7e7b46eb9
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=1aff96c919c44839db1b32eab021b571
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=af36e7071152bc4da3efb6aeeb30d219
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=3d026b4a999d854176b714b074e1253b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Name: Alias1
+    Id: g=09e1767775780767af7024d352120e22
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=dc6714811e8fd0202a4863d64ec4cf23
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}
+- File: FolderInAlarms/FolderInAlarms.yaml

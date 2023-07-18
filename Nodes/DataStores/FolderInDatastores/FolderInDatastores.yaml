@@ -1,0 +1,96 @@
+Name: FolderInDatastores
+Id: g=5219e38b06ee8596821da52593d9404c
+Type: FolderType
+Children:
+- Name: ODBCDatabase1
+  Id: g=a30f0653f7edb0f8d227c4f9f46394e8
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Id: g=799249b6461a0dd47086e8a5c5c42c72
+    Type: BaseObjectType
+  - Name: Type
+    Id: g=288240ef467b37b148997f3a0861cf4b
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Id: g=c1eb81fd6dfc48b72c1de378c3aee187
+    Type: PropertyType
+    DataType: String
+    Value: ""
+  - Name: Password
+    Id: g=2bea590e3716fa7fc03805a26a22dc88
+    Type: PropertyType
+    DataType: Password
+    Value: ""
+  - Name: MaxColumnNameLength
+    Id: g=316d37c4f56c79aa3c71585e5e8e3802
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=3d27d6f7da4395dac9b71be60c1382f5
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=c99ce4ab1f28839d7405aedda0382c1d
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=9236e2a8c05a407aebba09e071ddb6af
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Alias1
+    Id: g=c990360fd3f370194dd3e8543e1df4ae
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=225901d9ce03b4588dabaea993d91c8b
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9f525917a7129acbce5a1cc3eaad2f57","Namespace":42}

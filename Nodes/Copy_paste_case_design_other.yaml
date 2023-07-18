@@ -1,0 +1,89 @@
+Name: Copy_paste_case_design_other
+Id: g=508ab0fc222bff29bfac10d3decf5ae2
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=d33357b42f99070a6714f1e92b959cc7
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=14a29ee9ff592e5234cfeb9c4d6196e8
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=0eda83b14152263f2d94d1f8dea2f1b5
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=a715e2b40714a0675b24611bf6895f99
+  Type: PropertyGroup
+- Name: PasswordPolicy
+  Id: g=86b64aaac10e0450c016a5cf02c95949
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=428f35990b899b06247ce1c5cb8cd45e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=50bc24ca944441ec5e59493d9828d7e2
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=d06a50ce424b318c50791f6a0a93068e
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=5f448adecf0b657f8b438bcb141b29d8
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=86553840cc76658be46e09deea1ff704
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Id: g=7b391c89b5434da4bff3ebbe6d40c984
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Id: g=5233992ac36b0b45aa98945b170911e5
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: RecipeSchema2
+  Id: g=379b86cc89134bc41b90c99c87b47706
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Id: g=6e4cffc9e51c357b75a7433f6c140d22
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
